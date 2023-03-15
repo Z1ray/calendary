@@ -1,0 +1,151 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.calendary{
+    margin-top: 250px;
+}
+
+.container, table{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.arrow-right{
+    height: 60%;
+}
+
+.arrow{
+    display:flex;
+    width: 500px;
+    margin: 0 auto;
+    align-items: center
+}
+
+.btn-date{
+    margin: 0 auto;
+    height: 50px;
+    background-color: #D3D3D3;
+    border-radius: 30px;
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btn-next, .btn-back{
+    cursor: pointer;
+    width: 65px;
+}
+
+.year-month{
+    border-left: 1px solid;
+    border-right: 1px solid;
+    width: 100px;
+}
+
+.month{
+    font-weight: bold;
+}
+
+.thead{
+    height: 50px;
+    font-size: 24px;
+}
+
+.date{
+    cursor: pointer;
+    padding: 15px;
+    border: 1px solid #B0E0E6;
+    border-radius: 30px;
+    transition: all 0.7s;
+}
+
+.date:hover{
+    background-color: #1E90FF;
+    border: 1px solid #1E90FF;
+    color: white;
+    transform: scale(1.15);
+}
+
+.add{
+    background-color: #1E90FF;
+    border: 1px solid #1E90FF;
+    color: white;
+}
+
+.input-btn-data{
+    margin-top: 50px;
+}
+
+.input-data{
+    width: 350px;
+    height: 50px;
+    font-size: 24px;
+    border: 1px solid #B0E0E6;
+    border-radius: 10px;
+}
+
+.input-data:focus{
+    outline: 1px solid #1E90FF;
+}
+
+.btn-add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 10px auto;
+    width: 100px;
+    height: 40px;
+    border: 1px solid #B0E0E6;
+    border-radius: 30px;
+    transition: all 0.7s;
+}
+
+.btn-add:hover{
+    border-color: #1E90FF;
+    background-color: #1E90FF;
+    color: white;
+}
+
+.affer{
+    margin: 30px auto;
+    width: 700px;
+}
+
+.affer-tr{
+    border: 1px solid #B0E0E6;
+    border-radius: 10px;
+    height: 40px;
+    margin: 20px auto;
+    display: flex;
+    overflow: hidden;
+}
+
+.affer-date{
+    background-color: #B0E0E6;
+    display: flex;
+    width: 100px;
+    padding-left: 10px;
+    align-items: center;
+    border-right: 1px solid #B0E0E6;
+}
+
+.affer-text{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    width: 500px;
+}
+
+.affer-delete{
+    display: flex;
+    align-items: center;
+}
+
+.img-del{
+    margin-left: 40px;
+}
